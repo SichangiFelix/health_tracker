@@ -13,10 +13,10 @@ a{
     position: relative;
     margin: 8% auto;
     background: #f4f6f8;
-    padding: 5px;
+    padding: 10px;
     opacity: 85%;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 18px;
 }
 .banner{
     color: #FF4C29;

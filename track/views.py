@@ -6,3 +6,6 @@ def home(request):
 
 def register(request):
     return render(request, "screens/register.html")
+
+def land(request):
+    return render(request, "screens/landing.html")
