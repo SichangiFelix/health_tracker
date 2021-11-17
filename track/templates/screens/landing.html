@@ -8,6 +8,7 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/landing.css'%}">
 </head>
+
 <body>
     <div class="hero">
         <div class="pocket">
@@ -15,7 +16,7 @@
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut possimus magnam voluptates saepe modi sint, nobis minus, quis amet ex facere, hic necessitatibus dolorem illo nihil iste blanditiis sapiente earum!
             </p>
-            <button class="getstarted"><a href="register.html">Login or Register</a></button>
+            <button class="getstarted"><a href="{% url 'register'%}">Login or Register</a></button>
         </div>
     </div>
 </body>
