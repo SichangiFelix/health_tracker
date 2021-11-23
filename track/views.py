@@ -16,6 +16,9 @@ def registerPage(request):
     context = {'form' : form}
     return render(request, "screens/registration.html", context)
 
+def login (request):
+    return render(request,"screens/login.html")
+
 def home(request):
     return render(request, "screens/home.html")
 
