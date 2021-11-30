@@ -39,9 +39,9 @@
     margin: auto;
 }
 
-#text-pocket{
+#text_pocket{
     border-bottom: #17D7A0 solid;
-    border-width: 2.0px;
+    border-width: 1.5px;
     border-radius: 15px;
     background-color: #082032;
 }
