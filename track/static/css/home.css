@@ -40,14 +40,10 @@
 }
 
 #text-pocket{
-    border-style: solid;
-    border-width: 1.5px;
+    border-bottom: #17D7A0 solid;
+    border-width: 2.0px;
     border-radius: 15px;
-    border-color: #17D7A0;
     background-color: #082032;
-}
-#image-pocket{
-    
 }
 .vector{
     display: block;
