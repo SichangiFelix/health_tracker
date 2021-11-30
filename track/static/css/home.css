@@ -41,9 +41,21 @@
 
 #text_pocket{
     border-bottom: #17D7A0 solid;
-    border-width: 1.5px;
+    border-width: 2.0px;
     border-radius: 15px;
     background-color: #082032;
+    color: #F7F7F7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-size: larger;
+}
+.row{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .vector{
     display: block;
@@ -56,14 +68,14 @@
     background-color: #334756;
 }
 #second{
-    background-color: #A6A6A6;
+    background-color: #F7F7F7;
 }
 #third{
-    background-color:#A6A6A6;
+    background-color:#F7F7F7;
 }
 #fourth{
     background-color: #334756;
 }
 #fifth{
-    background-color: #454545;
+    background-color: #2E4C6D;
 }
